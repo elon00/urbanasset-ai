@@ -1,0 +1,13 @@
+[package]
+name = "urbanasset_ai"
+version = "0.1.0"
+edition = "2021"
+description = "UrbanAsset AI: Smart Cities Municipal Green Bond Issuance, Real Estate Registration and Urban Land Titling"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
